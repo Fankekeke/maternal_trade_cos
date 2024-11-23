@@ -151,7 +151,8 @@ export default {
     columns () {
       return [{
         title: '订单编号',
-        dataIndex: 'code'
+        dataIndex: 'code',
+        ellipsis: true
       }, {
         title: '总价格',
         dataIndex: 'totalPrice',
@@ -175,6 +176,7 @@ export default {
       }, {
         title: '用户名称',
         dataIndex: 'userName',
+        ellipsis: true,
         customRender: (text, row, index) => {
           if (text !== null) {
             return text
@@ -195,6 +197,7 @@ export default {
       }, {
         title: '商品名称',
         dataIndex: 'commodityName',
+        ellipsis: true,
         customRender: (text, row, index) => {
           if (text !== null) {
             return text
@@ -266,6 +269,7 @@ export default {
       }, {
         title: '发布时间',
         dataIndex: 'createDate',
+        ellipsis: true,
         customRender: (text, row, index) => {
           if (text !== null) {
             return text

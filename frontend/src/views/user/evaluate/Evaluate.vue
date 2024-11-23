@@ -117,7 +117,8 @@ export default {
         dataIndex: 'userName'
       }, {
         title: '商品名称',
-        dataIndex: 'commodityName'
+        dataIndex: 'commodityName',
+        ellipsis: true
       }, {
         title: '商品类型',
         dataIndex: 'typeName',
@@ -131,6 +132,7 @@ export default {
       }, {
         title: '订单编号',
         dataIndex: 'code',
+        ellipsis: true,
         customRender: (text, row, index) => {
           if (text !== null) {
             return text
@@ -151,6 +153,7 @@ export default {
       }, {
         title: '评价内容',
         dataIndex: 'remark',
+        ellipsis: true,
         scopedSlots: { customRender: 'contentShow' }
       }, {
         title: '评价图片',
@@ -167,6 +170,7 @@ export default {
       }, {
         title: '评价时间',
         dataIndex: 'createDate',
+        ellipsis: true,
         customRender: (text, row, index) => {
           if (text !== null) {
             return text

@@ -132,11 +132,13 @@ export default {
         title: '标题',
         dataIndex: 'title',
         scopedSlots: { customRender: 'titleShow' },
+        ellipsis: true,
         width: 300
       }, {
         title: '公告内容',
         dataIndex: 'content',
         scopedSlots: { customRender: 'contentShow' },
+        ellipsis: true,
         width: 600
       }, {
         title: '发布时间',

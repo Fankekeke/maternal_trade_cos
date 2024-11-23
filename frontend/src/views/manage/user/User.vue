@@ -163,6 +163,7 @@ export default {
       }, {
         title: '邮箱地址',
         dataIndex: 'mail',
+        ellipsis: true,
         customRender: (text, row, index) => {
           if (text !== null) {
             return text
@@ -203,6 +204,7 @@ export default {
       }, {
         title: '详细地址',
         dataIndex: 'address',
+        ellipsis: true,
         customRender: (text, row, index) => {
           if (text !== null) {
             return text

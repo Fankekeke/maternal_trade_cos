@@ -163,13 +163,15 @@ export default {
     columns () {
       return [{
         title: '卖家编号',
-        dataIndex: 'code'
+        dataIndex: 'code',
+        ellipsis: true
       }, {
         title: '卖家名称',
         dataIndex: 'userName'
       }, {
         title: '联系方式',
         dataIndex: 'phone',
+        ellipsis: true,
         customRender: (text, row, index) => {
           if (text !== null) {
             return text
@@ -180,6 +182,7 @@ export default {
       }, {
         title: '标题',
         dataIndex: 'title',
+        ellipsis: true,
         customRender: (text, row, index) => {
           if (text !== null) {
             return text
@@ -190,6 +193,7 @@ export default {
       }, {
         title: '商品名称',
         dataIndex: 'name',
+        ellipsis: true,
         customRender: (text, row, index) => {
           if (text !== null) {
             return text
@@ -267,6 +271,7 @@ export default {
       }, {
         title: '发布时间',
         dataIndex: 'createTime',
+        ellipsis: true,
         customRender: (text, row, index) => {
           if (text !== null) {
             return text

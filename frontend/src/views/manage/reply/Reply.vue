@@ -131,7 +131,8 @@ export default {
         }
       }, {
         title: '用户名称',
-        dataIndex: 'userName'
+        dataIndex: 'userName',
+        ellipsis: true
       }, {
         title: '联系方式',
         dataIndex: 'phone',
@@ -145,6 +146,7 @@ export default {
       }, {
         title: '商品名称',
         dataIndex: 'commodityName',
+        ellipsis: true,
         customRender: (text, row, index) => {
           if (text !== null) {
             return text
@@ -155,6 +157,7 @@ export default {
       }, {
         title: '标题',
         dataIndex: 'title',
+        ellipsis: true,
         customRender: (text, row, index) => {
           if (text !== null) {
             return text
@@ -165,6 +168,7 @@ export default {
       }, {
         title: '内容',
         dataIndex: 'content',
+        ellipsis: true,
         customRender: (text, row, index) => {
           if (text !== null) {
             return text
@@ -175,6 +179,7 @@ export default {
       }, {
         title: '创建时间',
         dataIndex: 'createDate',
+        ellipsis: true,
         customRender: (text, row, index) => {
           if (text !== null) {
             return text

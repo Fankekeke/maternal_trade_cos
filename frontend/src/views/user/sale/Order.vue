@@ -205,6 +205,7 @@ export default {
       }, {
         title: '商品名称',
         dataIndex: 'commodityName',
+        ellipsis: true,
         customRender: (text, row, index) => {
           if (text !== null) {
             return text
@@ -276,6 +277,7 @@ export default {
       }, {
         title: '发布时间',
         dataIndex: 'createDate',
+        ellipsis: true,
         customRender: (text, row, index) => {
           if (text !== null) {
             return text

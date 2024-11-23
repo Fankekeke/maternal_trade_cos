@@ -101,7 +101,8 @@ export default {
     columns () {
       return [{
         title: '订单编号',
-        dataIndex: 'code'
+        dataIndex: 'code',
+        ellipsis: true
       }, {
         title: '订单总价',
         dataIndex: 'totalCost',
@@ -114,10 +115,12 @@ export default {
         }
       }, {
         title: '评价客户',
-        dataIndex: 'userName'
+        dataIndex: 'userName',
+        ellipsis: true
       }, {
         title: '商品名称',
-        dataIndex: 'commodityName'
+        dataIndex: 'commodityName',
+        ellipsis: true
       }, {
         title: '商品类型',
         dataIndex: 'typeName',
@@ -131,6 +134,7 @@ export default {
       }, {
         title: '订单编号',
         dataIndex: 'code',
+        ellipsis: true,
         customRender: (text, row, index) => {
           if (text !== null) {
             return text
@@ -151,6 +155,7 @@ export default {
       }, {
         title: '评价内容',
         dataIndex: 'remark',
+        ellipsis: true,
         scopedSlots: { customRender: 'contentShow' }
       }, {
         title: '评价图片',
