@@ -146,6 +146,7 @@ export default {
     columns () {
       return [{
         title: '用户编号',
+        ellipsis: true,
         dataIndex: 'code'
       }, {
         title: '用户名称',
@@ -227,6 +228,7 @@ export default {
       }, {
         title: '创建时间',
         dataIndex: 'createDate',
+        ellipsis: true,
         customRender: (text, row, index) => {
           if (text !== null) {
             return text

@@ -163,6 +163,7 @@ export default {
     columns () {
       return [{
         title: '卖家编号',
+        ellipsis: true,
         dataIndex: 'code'
       }, {
         title: '卖家名称',
@@ -171,6 +172,7 @@ export default {
       }, {
         title: '联系方式',
         dataIndex: 'phone',
+        ellipsis: true,
         customRender: (text, row, index) => {
           if (text !== null) {
             return text

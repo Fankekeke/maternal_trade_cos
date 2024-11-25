@@ -101,6 +101,7 @@ export default {
     columns () {
       return [{
         title: '订单编号',
+        ellipsis: true,
         dataIndex: 'code'
       }, {
         title: '订单总价',

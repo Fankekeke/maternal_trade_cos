@@ -167,7 +167,8 @@ export default {
         ellipsis: true
       }, {
         title: '卖家名称',
-        dataIndex: 'userName'
+        dataIndex: 'userName',
+        ellipsis: true
       }, {
         title: '联系方式',
         dataIndex: 'phone',

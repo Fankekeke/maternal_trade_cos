@@ -172,6 +172,7 @@ export default {
       }, {
         title: '评价时间',
         dataIndex: 'createDate',
+        ellipsis: true,
         customRender: (text, row, index) => {
           if (text !== null) {
             return text

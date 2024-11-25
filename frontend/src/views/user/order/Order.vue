@@ -157,6 +157,7 @@ export default {
     columns () {
       return [{
         title: '订单编号',
+        ellipsis: true,
         dataIndex: 'code'
       }, {
         title: '总价格',
@@ -181,6 +182,7 @@ export default {
       }, {
         title: '用户名称',
         dataIndex: 'userName',
+        ellipsis: true,
         customRender: (text, row, index) => {
           if (text !== null) {
             return text
@@ -191,6 +193,7 @@ export default {
       }, {
         title: '联系方式',
         dataIndex: 'phone',
+        ellipsis: true,
         customRender: (text, row, index) => {
           if (text !== null) {
             return text
