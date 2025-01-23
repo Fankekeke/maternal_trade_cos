@@ -70,7 +70,7 @@ test2
 | ![](https://fank-bucket-oss.oss-cn-beijing.aliyuncs.com/img/1732624728449.png) | ![](https://fank-bucket-oss.oss-cn-beijing.aliyuncs.com/img/1732624529373.png) |
 | ![](https://fank-bucket-oss.oss-cn-beijing.aliyuncs.com/img/1732624689150.png) | ![](https://fank-bucket-oss.oss-cn-beijing.aliyuncs.com/img/1732624506470.png) |
 | ![](https://fank-bucket-oss.oss-cn-beijing.aliyuncs.com/img/1732624679425.png) | ![](https://fank-bucket-oss.oss-cn-beijing.aliyuncs.com/img/1732624497638.png) |
-| ![](https://fank-bucket-oss.oss-cn-beijing.aliyuncs.com/img/1732624672413.png) | 
+| ![](https://fank-bucket-oss.oss-cn-beijing.aliyuncs.com/img/1732624672413.png) | ![](https://fank-bucket-oss.oss-cn-beijing.aliyuncs.com/work/936e9baf53eb9a217af4f89c616dc19.png) |
 
 
 #### 演示视频
